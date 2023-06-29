@@ -5,6 +5,8 @@ This project is a face recognition system using VGG16. The system is able to rec
 
 User can add new person to the dataset if the system is not able to recognize the face. The system will prompt the user to enter the name of the person and then it will start capturing the face and train the model automatically.
 
+### ⚠️ **Note:** This project uses cuda enabled GPU for face detection and recognition. Without GPU the project will work very slow.
+
 ## 👉🏼 Virtual Environment.
 ```
 python3 -m venv venv
