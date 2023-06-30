@@ -49,7 +49,7 @@ def run_train():
 
     model.compile(optimizer='RMSProp', loss='categorical_crossentropy', metrics=['accuracy'])
 
-    hist = model.fit(train_genrator, batch_size=1, verbose=1, epochs=10, validation_data=valid_generator)
+    hist = model.fit(train_genrator, batch_size=1, verbose=1, epochs=5, validation_data=valid_generator)
 
     model.save('tranfer_lrn_face_cnn.h5')
 
